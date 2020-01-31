@@ -1,0 +1,160 @@
+body{
+	margin:0px;
+	background-color: #203333;
+	font-color:white;
+}
+.nav{
+	height:70px;
+	border-bottom:1px solid #2e4f4f;
+	font-family: 'Poppins', sans-serif;
+}
+.nav ul{
+	float:right;
+	margin-right:100px;
+	padding:5px;
+}
+.nav ul a{
+	font-size:20px;
+	padding:20px;
+	text-decoration: none;
+	transition:0.3s;
+	color:#A6A6A6;
+}
+.nav ul a:hover{
+	color:white;
+}
+.main{
+	width:auto;
+	overflow:hidden;
+	margin:50px;
+}
+.search{
+	float:right;
+	margin:100px;
+}
+.search1{
+	padding:10px 25px;
+	border-radius:100px;
+	width:200px;
+	border:none;
+	background-color:#2c4f4f;
+	font-family: 'Poppins', sans-serif;
+	margin:10px;
+	color:white;
+}
+.btn{
+	background-color:#cc311d;
+	font-family: 'Poppins', sans-serif;
+	border-radius:100px;
+	border:none;
+	padding:10px 25px;
+	color:white;
+	margin:10px;
+}
+.btn:hover{
+	background-color:white;
+	color:black;
+}
+.right{
+	display:flex;
+	justify-content: center;
+}
+.post1{
+	display:flex;
+	justify-content: center;
+}
+.post1 p{
+	display:block;
+	font-family: 'Poppins', sans-serif;
+	color:white;
+}
+.top p{
+	font-family: 'Poppins', sans-serif;
+	color:white;
+	float:left;
+	padding:10px 20px;
+	float:left;
+	margin:0px;
+	font-size:20px;
+}
+.top{
+	background-color:#2c4f4f;
+	display:block;
+	width:100%;
+	border-radius: 100px;
+	height:50px;
+	float:left;
+}
+.post2{
+	display:block;
+	float:left;
+	height:500px;
+	width:100%;
+}
+.middle{
+	
+}
+.top a{
+	float:right;
+	background-color:#cc311d;
+	margin:5.5px;
+	border-radius: 100px;
+	font-family: 'Poppins', sans-serif;
+	padding:7px;
+	color:white;
+	text-decoration:none;
+	font-size:15px;
+}
+.post3{
+	margin:100px;
+	margin-bottom:0px;
+	display:flex;
+	justify-content: center;
+}
+.h1{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	font-size:60px;
+	color:white;
+}
+.h2{
+	text-align: center;
+	font-family: 'Poppins', sans-serif;
+	color:white;
+}
+@media only screen and (max-width:1024px){
+	.right{
+		width:auto;
+		margin:0px;
+		display:block;
+	}
+	.main{
+		margin:10px;
+		display:block;
+		overflow:show;
+		width:auto;
+	}
+	.search{
+		float:left;
+		width:100%;
+		margin:0px;
+	}
+	.search form{
+		display:flex;
+		justify-content: center;
+	}
+	.search1{
+		width:100%;
+		display:block;
+		box-sizing: border-box;
+		margin-left:0px;
+	}
+	.post3{
+		margin:10px;
+	}
+	.post1{
+		float:center;
+		width:auto;
+		margin:100px;
+	}
+}
