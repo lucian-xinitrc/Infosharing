@@ -9,7 +9,7 @@ The website serves as a basic .cpp file uploader, acting as a code-sharing platf
 ## $ languages used
 The website was built using the following technologies:
 
-![HTML, CSS, JavaScript, PHP, Vim](https://skillicons.dev/icons?i=html,css,javascript,php,vim)
+![HTML, CSS, JavaScript, PHP, Sublime](https://skillicons.dev/icons?i=html,css,javascript,php,sublime)
 
 
 ## $ license
